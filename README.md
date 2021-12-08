@@ -33,7 +33,7 @@ In order to detect the object, it is first necessary to introduce the object to 
 
 * Operations are carried out within the necessary conditions, after the object is determined and it is displayed on the screen.
 
-### Required pyhton packages
+## Required pyhton packages
 * pip install pyserial
 * pip install imutils
 * pip install opencv-contrib-python
