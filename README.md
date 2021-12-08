@@ -33,7 +33,7 @@ In order to detect the object, it is first necessary to introduce the object to 
 
 * Operations are carried out within the necessary conditions, after the object is determined and it is displayed on the screen.
 
-## Required pyhton packages
+### Required pyhton packages
 * pip install pyserial
 * pip install imutils
 * pip install opencv-contrib-python
@@ -41,6 +41,8 @@ In order to detect the object, it is first necessary to introduce the object to 
 * pip install videoinput
 * pip install os
 * pip install packages
+## Working Principle
+When the camera sees someone, LED is red, it means alert. In short, when someone or someone is on the yellow line violation line (at camera angle), the red LEDs on the yellow line violation line light up. RGB's red illumination means the train is too far from the station. If it is yellow, it gives the message of approaching. Green is when the train is at the station and this means that you can take the train. The important point is that when the RGB lights up green so when the train is at the station, the yellow line violation line does not matter. Therefore the LED does not give a warning and does not light up.
 
 ## Outputs
 
