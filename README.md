@@ -44,6 +44,8 @@ In order to detect the object, it is first necessary to introduce the object to 
 ## Working Principle
 When the camera sees someone, LED is red, it means alert. In short, when someone or someone is on the yellow line violation line (at camera angle), the red LEDs on the yellow line violation line light up. RGB's red illumination means the train is too far from the station. If it is yellow, it gives the message of approaching. Green is when the train is at the station and this means that you can take the train. The important point is that when the RGB lights up green so when the train is at the station, the yellow line violation line does not matter. Therefore the LED does not give a warning and does not light up.
 
+https://github.com/safakturkoglu/BitirmeTezi/issues/4#issue-1074883139
+
 ## Outputs
 
 ### Face Detection
