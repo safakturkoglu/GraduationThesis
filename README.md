@@ -1,15 +1,7 @@
 # Graduation Thesis
 ## Overview of the Project
-This project aims to improve safety at train stations. The high voltage in the rail
-system and the rapid arrival of the train are lethal because of people's carelessness and
-wrong actions. The priority of this project was hearing and visually impaired people.
-The distance sensor was helped them indirectly. When there are people who violate
-the warning line in the station, the red LEDs buried beneath the line of warning will
-give a warning by means of a fixed camera. The train is about to get in the station and
-it was been easier to realize that it is approaching that thanks to the red, yellow and
-green LEDs. The speaker at the bottom of this traffic light was been able to analyze
-the approach of the train more comfortably for the visually impaired people.
-It was done Real-Time Pedestrian Detection and Tracking in this project. It was used OpenCV library and as interface Python . Data was been sent from the central computer to the microprocessor by serial communication. 
+
+It was done Real-Time Pedestrian Detection and Tracking in this project. It was used OpenCV library and as interface Python . Data was been sent from the central computer to the microprocessor by serial communication. This project aims to improve safety at train stations. The high voltage in the rail system and the rapid arrival of the train are lethal because of people's carelessness and wrong actions.  When there are people who violate the warning line in the station, the red LEDs buried beneath the line of warning will give a warning by means of a fixed camera. The priority of this project was hearing and visually impaired people. The distance sensor was helped them indirectly via RGB.
 
 ## Haar Cascade 
 Haar cascade classifier Object Detection using Haar feature-based cascade classifiers is an effective object detection method proposed by Paul Viola and Michael Jones in their paper, "Rapid Object Detection using a Boosted Cascade of Simple Features" in 2001. It is a machine learning based approach where a cascade function is trained from a lot of positive and negative images. It is then used to detect objects in other images.
