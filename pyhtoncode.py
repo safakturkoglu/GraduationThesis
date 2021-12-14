@@ -40,10 +40,10 @@ while True:
 
                 # One of the two data is sent to Arduino and the condition is fulfilled.
 		if insan > 0:
-			serialport.write(b"3")#byte 3 ü arduinoya gönderdik
+			serialport.write(b"3")#sending data for red led
 			print("A")
 		else:
-			serialport.write(b"1")
+			serialport.write(b"1")#sending data for green led
 			print("B")
 				
 		cv2.imshow("preview", frame)	
