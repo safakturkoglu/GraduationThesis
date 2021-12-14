@@ -6,7 +6,7 @@ It was done Real-Time Pedestrian Detection and Tracking in this project. It was 
 ## Haar Cascade 
 Haar cascade classifier Object Detection using Haar feature-based cascade classifiers is an effective object detection method proposed by Paul Viola and Michael Jones in their paper, "Rapid Object Detection using a Boosted Cascade of Simple Features" in 2001. It is a machine learning based approach where a cascade function is trained from a lot of positive and negative images. It is then used to detect objects in other images.
 
-In order to detect the object, it is first necessary to introduce the object to the system and then search on the image using this defined model. The Haar cascade classifier takes a model file of XML type. These XML files are a data set prepared with thousands of negatives and positives of an object. The images defined as positive are the images where the desired object is found, and the negative ones are the images where the desired object is not found. Many models are already trained in OpenCV
+In order to detect the object, it is first necessary to introduce the object to the system and then search on the image using this defined model. The Haar cascade classifier takes a model file of XML type. These XML files are a data set prepared with thousands of negatives and positives of an object. The images defined as positive are the images where the desired object is found, and the negative ones are the images where the desired object is not found. Many models are already trained in OpenCV.
 
 ## Algorithm for Image Processing
 * First, the haar cascade method is used to detect faces or full body in each frame of the webcam feed.
